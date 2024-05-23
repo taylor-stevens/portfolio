@@ -2,7 +2,7 @@
     <v-container justify="center" justify-self="center">
         <v-row no-gutters justify="center">
             <v-col>
-                <v-tabs v-model="tab" fixed-tabs color="deep-purple-accent-4">
+                <v-tabs v-model="tab" fixed-tabs>
                     <v-tab :value="1">FosteredFood</v-tab>
                     <v-tab :value="2">Addressing Political Bias</v-tab>
                     <v-tab :value="3">Covey-Town</v-tab>

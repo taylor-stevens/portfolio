@@ -1,26 +1,19 @@
 <template>
-  <v-container class="fill-height">
-    <v-app-bar>
-      <v-app-bar-nav-icon 
-      color="deep-purple-accent-4" 
-      icon="mdi-home-circle"
-      @click="changePage(0)"/>
+  <v-app-bar color="grey-darken-3">
       <v-app-bar-title>{{ pageHeading }}</v-app-bar-title>
-      Projects
-      <v-btn icon="mdi-list-box" color="deep-purple-accent-4" @click="changePage(1)"/>
-      Contact
-      <v-btn icon="mdi-account-box" color="deep-purple-accent-4" @click="changePage(2)"/>
+      <v-tabs
+                  show-arrows
+                  v-model="page"
+                  height="60"
+                >
+                  <v-tab value="0" :text="'Home'"></v-tab>
+                  <v-tab value="1" :text="'Projects'"></v-tab>
+                  <v-tab value="2" :text="'Contact'"></v-tab>
+              </v-tabs>
     </v-app-bar>
-    <div v-if="page == 0">
-      <Home @projects="changePage"/>
-    </div>
-    <div v-else-if="page == 1">
-      <Projects/>
-    </div>
-    <div v-else-if="page == 2">
-      <Contact/>
-    </div>
-  </v-container>
+    <Home v-if="page == 0" @projects="changePage"/>
+    <Projects v-else-if="page == 1"/>
+    <Contact v-else-if="page == 2"/>
 </template>
 
 <script>

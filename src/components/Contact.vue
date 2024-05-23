@@ -1,7 +1,7 @@
 <template>
     <v-container class="fill-height">
-        <v-row>
-            <v-col>
+        <v-row width="100%" class="align-center">
+            <v-col width="100%">
                 <v-card
                     class="mx-auto"
                     width="400"
@@ -16,6 +16,8 @@
                     </v-card-text>
                 </v-card>
             </v-col>
+        </v-row>
+        <v-row class="align-center">
             <v-col>
                 <v-card
                     class="mx-auto"
@@ -31,6 +33,8 @@
                     </v-card-text>
                 </v-card>
             </v-col>
+        </v-row>
+        <v-row class="align-center">
             <v-col>
                 <v-card
                     class="mx-auto"
