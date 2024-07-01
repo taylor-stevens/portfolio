@@ -1,26 +1,26 @@
 <template>
-  <v-app-bar color="grey-darken-3">
-      <v-app-bar-title>{{ pageHeading }}</v-app-bar-title>
-      <v-tabs
-                  show-arrows
-                  v-model="page"
-                  height="60"
-                >
-                  <v-tab value="0" :text="'Home'"></v-tab>
-                  <v-tab value="1" :text="'Projects'"></v-tab>
-                  <v-tab value="2" :text="'Contact'"></v-tab>
-              </v-tabs>
+  <v-sheet color="black" style="height: 100%;">
+    <v-app-bar color="grey-darken-4">
+      <template v-slot:prepend>
+        <v-icon>
+          <v-img src="https://www.clker.com//cliparts/5/P/5/O/4/k/white-mountain-peak-ii-hi.png">
+          </v-img>
+        </v-icon>
+      </template>
+      <v-tabs v-model="page" :color="tabColor">
+        <v-tab value="0" :text="'Home'"></v-tab>
+        <v-tab value="1" :text="'Projects'"></v-tab>
+      </v-tabs>
     </v-app-bar>
     <Home v-if="page == 0" @projects="changePage"/>
     <Projects v-else-if="page == 1"/>
-    <Contact v-else-if="page == 2"/>
+  </v-sheet>
 </template>
 
 <script>
 
   import Home from './Home.vue'
   import Projects from './Projects.vue'
-  import Contact from './Contact.vue'
 
   export default {
     // Properties returned from data() become reactive state
@@ -28,7 +28,8 @@
     data() {
       return {
         page: 0, //homepage
-        pageHeading: 'Taylor Stevens' //homepage
+        pageHeading: 'Taylor Stevens', //homepage
+        tabColor: 'white',
       }
     },
 
@@ -38,16 +39,14 @@
       changePage(page) {
         let initialPage = this.page
         this.page = page;
-        this.pageHeading = this.page == 0 ? 'Taylor Stevens' : this.page == 1 ? 'Projects' : this.page == 2 ? 'Contact Me' : 'Unknown Page'
+        this.pageHeading = this.page == 0 ? 'Taylor Stevens' : this.page == 1 ? 'Projects' : 'Unknown Page'
         this.$forceUpdate();
         console.log(`recieved page change from ${initialPage} to page ${page}`)
       },
     },
-
     components: {
       Home,
       Projects,
-      Contact
     }
   }
 </script>

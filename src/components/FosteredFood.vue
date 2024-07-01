@@ -2,7 +2,7 @@
     <v-container class="fill-height">
         <v-row>
             <v-col>
-                <div class="text-h4" style="margin-top: 5%; margin-bottom: 3%;">
+                <div class="text-h4" style="margin-top: 3%; margin-bottom: 3%;">
                     The FosteredFood Application: Cohesion of Mutual Aid Networks with Support from Technological Integration
                 </div>
                 <div style="margin-bottom: 3%;">
@@ -13,7 +13,22 @@
                 food safety in the fridges, and share critical information about fridge contents with the public. 
                 The project introduced both the software and hardware alongside qualitative fieldwork to evaluate 
                 the effectiveness, adoption, and expected impact of the web application on the involved communities.
-                The current site can be found <v-icon icon="mdi-github"/> {{ " " }}<a href="https://taylor-stevens.github.io/fostered-food/" target="_blank">here</a>
+                The current site can be found
+                <a
+                    key="Github"
+                    href="https://github.com/taylor-stevens/fostered-food"
+                    title="Github"
+                    class="d-inline-block mx-2 social-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <v-icon
+                    :icon="'fa-brands fa-github'"
+                    size="24"
+                    style="color: white;"
+                    />
+                </a>
+                <a href="https://taylor-stevens.github.io/fostered-food/" target="_blank">here</a>
                 along with the <a href="https://github.com/taylor-stevens/fostered-food" target="_blank">current repository</a>.
             </div>
             </v-col>
@@ -27,35 +42,71 @@
             </v-col>
             <v-col cols="1">
                 <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row>
-                        <v-img src="../assets/react.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-react'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/language-javascript.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-js'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/nodejs.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-node-js'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/language-typescript.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-img style="height: 10;" src="../assets/language-typescript.png"></v-img>
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/airballoon.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-fly'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/docker.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-docker'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/google-spreadsheet.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-square-google-plus'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/google-plus.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-bootstrap'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/bootstrap.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-solid fa-leaf'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/magnify-expand.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-solid fa-magnifying-glass'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
                 </v-container>
             </v-col>

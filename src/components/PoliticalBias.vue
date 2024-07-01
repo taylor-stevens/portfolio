@@ -2,7 +2,7 @@
     <v-container class="fill-height">
         <v-row>
             <v-col>
-                <div class="text-h4" style="margin-top: 5%; margin-bottom: 3%;">
+                <div class="text-h4" style="margin-top: 3%; margin-bottom: 3%;">
                     Addressing Political Bias in News Articles with Multinomial Regression
                 </div>
                 <div style="margin-bottom: 3%;">
@@ -26,8 +26,22 @@
                     respectively. Each score showcases the dominant bias ingrained within the article based on the provided 
                     features. Aside from the goal of having a high accuracy rate in classifying articles, it is important to 
                     understand the model’s output and the sources of misclassification.
-                    The current repository can be found <v-icon icon="mdi-github"/> {{ " " }}<a href="https://github.com/anjali-tanna/cs4100_final_project" target="_blank">here</a>.
-                    
+                    The current repository can be found
+                    <a
+                        key="Github"
+                        href="https://github.com/anjali-tanna/cs4100_final_project"
+                        title="Github"
+                        class="d-inline-block mx-2 social-link"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <v-icon
+                        :icon="'fa-brands fa-github'"
+                        size="24"
+                        style="color: white;"
+                        />
+                    </a>
+                    <a href="https://github.com/anjali-tanna/cs4100_final_project" target="_blank">here</a>.
                 </div>
             </v-col>
         </v-row>
@@ -40,8 +54,12 @@
             </v-col>
             <v-col cols="1">
                 <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row style="margin-bottom: 5%;">
-                        <v-img src="../assets/language-python.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-python'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
                     <v-row style="margin-bottom: 5%;">
                         <v-img src="../assets/numpy.png"></v-img>

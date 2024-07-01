@@ -2,7 +2,7 @@
     <v-container class="fill-height">
         <v-row>
             <v-col>
-                <div class="text-h4" style="margin-top: 5%; margin-bottom: 3%;">
+                <div class="text-h4" style="margin-top: 3%; margin-bottom: 3%;">
                     Implementation of the "Friends Feature" within the Covey.Town World
                 </div>
                 <div style="margin-bottom: 3%;">
@@ -15,8 +15,23 @@
                 each player will see every other player in the town under the “Other Players In This Town” heading on the 
                 Social Sidebar. When a player gains a friend, the friend’s name is instead displayed under the “Friends” 
                 heading.
-                The current repository can be found <v-icon icon="mdi-github"/> {{ " " }}<a href="https://github.com/neu-cs4530/covey-town-friends-feature" target="_blank">here</a>. The original
-                site was being run <a href="https://covey-town-with-friends-group-308.netlify.app/" target="_blank">this netlify site</a>.
+                The current repository can be found
+                <a
+                    key="Github"
+                    href="https://github.com/neu-cs4530/covey-town-friends-feature"
+                    title="Github"
+                    class="d-inline-block mx-2 social-link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <v-icon
+                    :icon="'fa-brands fa-github'"
+                    size="24"
+                    style="color: white;"
+                    />
+                </a>
+                <a href="https://github.com/neu-cs4530/covey-town-friends-feature" target="_blank">here</a>. The original
+                site was being run on <a href="https://covey-town-with-friends-group-308.netlify.app/" target="_blank">this netlify site</a>.
             </div>
             </v-col>
         </v-row>
@@ -29,23 +44,39 @@
             </v-col>
             <v-col cols="1">
                 <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row>
-                        <v-img src="../assets/react.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-react'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
+                    <v-row style="padding-bottom: 10%;">
                         <v-img src="../assets/jest.png"></v-img>
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/sass.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-sass'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
+                    <v-row style="padding-bottom: 10%;">
                         <v-img src="../assets/language-typescript.png"></v-img>
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/language-css3.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-css3'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
-                    <v-row>
-                        <v-img src="../assets/language-html5.png"></v-img>
+                    <v-row style="padding-bottom: 10%;">
+                        <v-icon
+                        :icon="'fa-brands fa-html5'"
+                        size="50"
+                        style="color: white;"
+                        />
                     </v-row>
                 </v-container>
             </v-col>
