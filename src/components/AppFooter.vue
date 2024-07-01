@@ -47,6 +47,16 @@
         icon: 'fa-brands fa-instagram',
         href: 'https://www.instagram.com/taylor_stevenss/',
       },
+      {
+        title: 'Github',
+        icon: 'fa-brands fa-github',
+        href: 'https://github.com/taylor-stevens'
+      },
+      {
+        title: 'Email',
+        icon: 'fa-solid fa-envelope',
+        href: 'mailto:taylorstevens14562@gmail.com'
+      }
     ]
   </script>
   
