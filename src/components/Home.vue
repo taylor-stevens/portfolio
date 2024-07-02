@@ -1,37 +1,52 @@
 <template>
     <v-container class="fill-height transparent">
-      <v-row>
-        <v-col style="padding: 3%;">
+      <v-row style="padding-top:5%; padding-bottom:5%">
+        <v-col style="padding: 3%;" cols="12" sm="6">
           <v-img
-            cols="auto"
-            lg="3"
-            sm="6"
-            class="bg-white rounded-xl"
+            class="bg-white rounded-xl d-flex align-center"
             :aspect-ratio="1"
             src="../assets/me.jpeg"
             cover
           ></v-img>
         </v-col>
-        <v-col sm="6" lg="5" cols="auto" style="place-self:center; min-width: 50%;">
+        <v-col cols="12" sm="6" style="place-self:center; min-width: 50%;">
           <div>
-            <div class="text-h5">About</div>
-            <br>
-            My name is Taylor Stevens and I am a Software Engineer with a degree in Computer Science concentrated in Artificial 
-            Intelligence from Northeastern University. I recently graduated magna cum laude in December 2023 and I am excited to
-            begin working my first full time job post-grad. I have a diverse background with full-stack development having worked
-            with a broad range of tools and environments from React and Linux to Git and Pyspark. Driven by a passion for public 
-            service and mutual aid, I have worked on many projects that given me experience in complex problem-solving, leadership, 
-            and collaboration.
-            <br><br>
-            One project that I am particularly proud of is the FosteredFood project, a mutual aid initiative that focuses on reducing food 
-            waste and increasing food access for low-income and food-insecure individuals. As the project lead, I have been able to expand 
-            and develop my skills in project management and community outreach as well as my technical skills with Typescript, React, Google 
-            API's, and more. 
-            <br><br>
-            My personal interests include playing rugby as a wing, going bouldering indoors and outdoors, and hiking and camping in the White 
-            Mountains in New Hampshire.
-            <br><br>
-            To explore some of my projects, navigate using the tabs in the upper right corner.
+            <div class="text-h2">Taylor Stevens</div>
+            <div class="text-h6">
+              <br>
+              Welcome to my software engineering portfolio! Here, you'll find examples of 
+            projects I've worked on, showcasing my skills in the field of software 
+            development. Whether you're here to browse through my projects, learn more 
+            about my experience, or get in touch for potential collaboration, I hope you 
+            find what you're looking for!
+            <br/><br/>
+            Some of the projects that I have had the pleasure of working on, which can 
+            be found in more detail on my 
+            <v-btn size="small" @click="projectsClicked(1)" color="transparent">Projects</v-btn>
+            page, include the following: The FosteredFood Web Application, A Multinomial 
+            Regression Final Project, and A Covey Town Application Extension. On each 
+            page, a quick view of the tech stacks are by logo view on the side of each
+            page's main image. 
+            <br/><br/>
+            I am a passionate software engineer with over 1 year of experience in building 
+            web applications, writing extensive testing coverage, and using data analysis
+            tools, and a four year degree in Computer Science and Artificial Intelligence
+            from Northeastern University. My journey in software development began in high 
+            school my softmore year, where I discovered my love for coding and 
+            problem-solving, but did not stop there!
+            <br/><br/>
+            I thrive in collaborative environments where creativity and innovation are 
+            encouraged, and I enjoy tackling complex technical challenges. My skill set 
+            includes proficiency in a wide range of technologies, from backend development 
+            using Node.js and Python to frontend frameworks like React and Vue for web 
+            app development.
+            <br/><br/>
+            If you are interested in discussing a project or exploring opportunities to 
+            work together, feel free to reach out via email at taylorstevens14562@gmail.com. 
+            I'm always open to new challenges and eager to contribute to impactful projects.
+            <br/><br/>
+            Thank you for visiting my portfolio, and I look forward to connecting with you!
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -42,8 +57,8 @@
   export default {
     props: ['page', 'changePage'],
     methods: {
-      projectsClicked() {
-        this.$emit('projects', 1)
+      projectsClicked(num) {
+        this.$emit('projects', num)
       }
     },
     data() {

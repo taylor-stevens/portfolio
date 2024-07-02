@@ -36,53 +36,43 @@
             </v-col>
         </v-row>
         <v-row justify-self="center" justify="center" style="margin-bottom: 3%;">
-            <v-col>
+            <v-col cols="12" md="11">
                 <v-img src="./coveytown.png"
                 justify-self="center"
                 >
                 </v-img>
             </v-col>
-            <v-col cols="1">
-                <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-react'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-img src="../assets/jest.png"></v-img>
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-sass'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-img src="../assets/language-typescript.png"></v-img>
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-css3'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-html5'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                </v-container>
+            <v-col cols="12" md="1">
+                <v-icon
+                :icon="'fa-brands fa-react'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon size="50">
+                    <v-img src="../assets/jest.png"/>
+                </v-icon>
+                <v-icon
+                :icon="'fa-brands fa-sass'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon size="50">
+                    <v-img src="../assets/language-typescript.png"/>
+                </v-icon>
+                <v-icon
+                :icon="'fa-brands fa-css3'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-html5'"
+                size="50"
+                style="color: white;"
+                />
             </v-col>
         </v-row>
         <v-row>
-            <v-col>
+            <v-col cols="12" md="6">
                 <div class="text-h5">
                     Technical Overview
                 </div>
@@ -138,7 +128,7 @@
                 ParticipantList.tsx, and Room.tsx were also slightly modified in order to make the Social Sidebar respond to 
                 mouse events, and wrap the video area overlay so it wouldn't obscure any of our added features.
             </v-col>
-            <v-col>
+            <v-col cols="12" md="6">
                 <div class="text-h5">
                     Process Overview
                 </div>

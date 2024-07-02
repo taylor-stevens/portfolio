@@ -46,35 +46,31 @@
             </v-col>
         </v-row>
         <v-row justify-self="center" justify="center" style="margin-bottom: 3%;">
-            <v-col>
+            <v-col sm="11" cols="12">
                 <v-img src="./mlrm_overview.jpg"
                 justify-self="center"
                 >
                 </v-img>
             </v-col>
-            <v-col cols="1">
-                <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-python'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="margin-bottom: 5%;">
-                        <v-img src="../assets/numpy.png"></v-img>
-                    </v-row>
-                    <v-row style="margin-bottom: 5%;">
-                        <v-img src="../assets/pandas.png"></v-img>
-                    </v-row>
-                    <v-row style="margin-bottom: 5%;">
-                        <v-img src="../assets/scikit-learn.png"></v-img>
-                    </v-row>
-                </v-container>
+            <v-col cols="12" sm="1">
+                <v-icon
+                :icon="'fa-brands fa-python'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon size="50">
+                    <v-img src="../assets/numpy.png"/>
+                </v-icon>
+                <v-icon size="50">
+                    <v-img src="../assets/pandas.png"/>
+                </v-icon> 
+                <v-icon size="50">
+                    <v-img src="../assets/scikit-learn.png"/>
+                </v-icon>
             </v-col>
         </v-row>
         <v-row>
-            <v-col>
+            <v-col cols='12' sm="6">
                 <div class="text-h5">
                     Database Selection and Cleaning
                 </div>
@@ -119,7 +115,7 @@
                 consolidate information, the preprocessing allowed for the model training to result in significantly more accurate bias 
                 classification than before.
             </v-col>
-            <v-col>
+            <v-col cols="12" sm="6">
                 <div class="text-h5">
                     Analysis and Discussion
                 </div>

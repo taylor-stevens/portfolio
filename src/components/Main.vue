@@ -2,10 +2,11 @@
   <v-sheet color="black" style="height: 100%;">
     <v-app-bar color="grey-darken-4">
       <template v-slot:prepend>
-        <v-icon>
-          <v-img src="https://www.clker.com//cliparts/5/P/5/O/4/k/white-mountain-peak-ii-hi.png">
-          </v-img>
-        </v-icon>
+        <v-btn size="x-large" @click="page=0">
+          <v-icon size="50">
+            <v-img src="https://www.clker.com//cliparts/5/P/5/O/4/k/white-mountain-peak-ii-hi.png"/>
+          </v-icon>
+        </v-btn>
       </template>
       <v-tabs v-model="page" :color="tabColor">
         <v-tab value="0" :text="'Home'"></v-tab>

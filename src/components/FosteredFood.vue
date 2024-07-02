@@ -1,12 +1,11 @@
 <template>
-    <v-container class="fill-height">
+    <v-container class="fill-height" >
         <v-row>
-            <v-col>
-                <div class="text-h4" style="margin-top: 3%; margin-bottom: 3%;">
-                    The FosteredFood Application: Cohesion of Mutual Aid Networks with Support from Technological Integration
-                </div>
-                <div style="margin-bottom: 3%;">
-                    FosteredFood is a community-driven web application project developed in collaboration with 
+            <div class="text-h4" style="margin-top: 3%; margin-bottom: 3%;">
+                The FosteredFood Application: Cohesion of Mutual Aid Networks with Support from Technological Integration
+            </div>
+            <div style="margin-bottom: 3%;">
+                FosteredFood is a community-driven web application project developed in collaboration with 
                 local community fridges, with the primary goal of mitigating concerns related to food access 
                 and food sovereignty. This initiative involved the development of both software and low-cost 
                 temperature sensors, which were sought to be deployed to enhance volunteer coordination, ensure
@@ -31,88 +30,67 @@
                 <a href="https://taylor-stevens.github.io/fostered-food/" target="_blank">here</a>
                 along with the <a href="https://github.com/taylor-stevens/fostered-food" target="_blank">current repository</a>.
             </div>
-            </v-col>
         </v-row>
         <v-row justify-self="center" justify="center" style="margin-bottom: 3%;">
-            <v-col>
+            <v-col cols="12" sm="11">
                 <v-img src="./fosteredfood.jpg"
                 justify-self="center"
                 >
                 </v-img>
             </v-col>
-            <v-col cols="1">
-                <v-container class="grow d-flex flex-column flex-nowrap">
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-react'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-js'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-node-js'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-img style="height: 10;" src="../assets/language-typescript.png"></v-img>
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-fly'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-docker'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-square-google-plus'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-brands fa-bootstrap'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-solid fa-leaf'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                    <v-row style="padding-bottom: 10%;">
-                        <v-icon
-                        :icon="'fa-solid fa-magnifying-glass'"
-                        size="50"
-                        style="color: white;"
-                        />
-                    </v-row>
-                </v-container>
+            <v-col cols='12' sm="1">
+                <v-icon
+                :icon="'fa-brands fa-react'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-js'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-node-js'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon size="50">
+                    <v-img src="../assets/language-typescript.png"/>
+                </v-icon>
+                <v-icon
+                :icon="'fa-brands fa-fly'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-docker'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-square-google-plus'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-brands fa-bootstrap'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-solid fa-leaf'"
+                size="50"
+                style="color: white;"
+                />
+                <v-icon
+                :icon="'fa-solid fa-magnifying-glass'"
+                size="50"
+                style="color: white;"
+                />
             </v-col>
         </v-row>
         <v-row>
-            <v-col>
+            <v-col cols="12" sm="6">
                 <div class="text-h5">
                     Software
                 </div>
@@ -168,7 +146,7 @@
                 which are both vital in user experience.
                 <br><br>
             </v-col>
-            <v-col>
+            <v-col cols="12" sm="6">
                 <div class="text-h5">
                     Hardware
                 </div>
