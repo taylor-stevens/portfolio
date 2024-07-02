@@ -29,20 +29,15 @@
     data() {
       return {
         page: 0, //homepage
-        pageHeading: 'Taylor Stevens', //homepage
         tabColor: 'white',
       }
     },
 
-    // Methods are functions that mutate state and trigger updates.
-    // They can be bound as event handlers in templates.
     methods: {
       changePage(page) {
         let initialPage = this.page
         this.page = page;
-        this.pageHeading = this.page == 0 ? 'Taylor Stevens' : this.page == 1 ? 'Projects' : 'Unknown Page'
         this.$forceUpdate();
-        console.log(`recieved page change from ${initialPage} to page ${page}`)
       },
     },
     components: {

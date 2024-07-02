@@ -1,47 +1,41 @@
 <template>
     <v-container justify="center" justify-self="center">
         <v-row no-gutters justify="center">
-            <v-col>
-                <v-tabs v-model="tab" fixed-tabs>
-                    <v-tab :value="1">FosteredFood</v-tab>
-                    <v-tab :value="2">Addressing Political Bias</v-tab>
-                    <v-tab :value="3">Covey-Town</v-tab>
-                </v-tabs>
-                <v-window v-model="tab">
-                    <v-window-item
-                        :value="1"
-                    >
-                        <FosteredFood/>
-                    </v-window-item>
-                    <v-window-item
-                        :value="2"
-                    >
-                        <PoliticalBias/>
-                    </v-window-item>
-                    <v-window-item
-                        :value="3"
-                    >
-                        <Covey/>
-                    </v-window-item>
-                </v-window>
-            </v-col>
+            <v-tabs v-for="project in projectData" v-model="tab" fixed-tabs center-active show-arrows>
+                <v-tab :value="project.name" :text="project.name"/>
+            </v-tabs>
+            <v-window v-model="tab" v-for="project in projectData">
+                <v-window-item :value="project.name">
+                    <ProjectComponent 
+                    :projectTitle="project.projectTitle" 
+                    :projectOverview="project.projectOverview"
+                    :githubLink="project.githubLink"
+                    :websiteLink="project.websiteLink"
+                    :websiteLinkDescription="project.websiteLinkDescription"
+                    :projectImagePreviewSrc="project.projectImagePreviewSrc"
+                    :toolIcons="project.toolIcons"
+                    :toolImages="project.toolImages"
+                    :leftDescriptionTitle="project.leftDescriptionTitle"
+                    :leftDescriptionInfo="project.leftDescriptionInfo"
+                    :rightDescriptionTitle="project.rightDescriptionTitle"
+                    :rightDescriptionInfo="project.rightDescriptionInfo"/>
+                </v-window-item>
+            </v-window>
         </v-row>
     </v-container>
 </template>
 
 <script>
-  import FosteredFood from './FosteredFood.vue'
-  import PoliticalBias from './PoliticalBias.vue'
-  import Covey from './Covey.vue'
+  import ProjectComponent from './ProjectComponent.vue'
+  import projectData from '../assets/projectinfo.json'
 
   export default {
     data: () => ({
-      tab: null,
+      tab: '',
+      projectData: projectData
     }),
     components: {
-      FosteredFood,
-      PoliticalBias,
-      Covey
+      ProjectComponent
     }
   }
 </script>

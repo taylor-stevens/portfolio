@@ -11,8 +11,8 @@
         </v-col>
         <v-col cols="12" sm="6" style="max-height: inherit; overflow: scroll; padding-top: 5%; padding-bottom: 20%;">
           <div>
-            <div class="text-h2">Taylor Stevens</div>
-            <div class="text-h6">
+            <div class="text-h4">Taylor Stevens</div>
+            <div class="text-h7">
               <br>
               Welcome to my software engineering portfolio! Here, you'll find examples of 
             projects I've worked on, showcasing my skills in the field of software 

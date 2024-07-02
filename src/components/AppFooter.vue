@@ -19,7 +19,7 @@
         class="text-caption text-disabled"
         style="position: absolute; right: 16px;"
       >
-        &copy; 2024-{{ (new Date()).getFullYear() }}
+        &copy; 2023-{{ (new Date()).getFullYear() }}
         —
         <a
           class="text-decoration-none on-surface"
