@@ -19,12 +19,21 @@
         </v-row>
         <v-row justify-self="center" justify="center" style="margin-bottom: 3%;">
             <v-col cols="12" sm="11">
-                <v-img :src="projectImagePreviewSrc" justify-self="center"/>
+                <v-img :src="
+                    projectImagePreviewSrc == 'fosteredfood' ? fosteredfood : 
+                    projectImagePreviewSrc == 'coveytown' ? coveytown :
+                    projectImagePreviewSrc == 'mlrm' ? mlrm : mlrm " justify-self="center"/>
             </v-col>
             <v-col cols='12' sm="1">
                 <v-icon v-for="icon in toolIcons" :icon="icon" size="50" color="white"/>
                 <v-icon v-for="image in toolImages" size="50">
-                    <v-img :src="image"/>
+                    <v-img :src="
+                        image == 'jest' ? jest :
+                        image == 'typescript' ? typescript :
+                        image == 'numpy' ? numpy :
+                        image == 'pandas' ? pandas :
+                        image == 'scikit' ? scikit : scikit
+                        "/>
                 </v-icon>
             </v-col>
         </v-row>
@@ -46,13 +55,34 @@
 </template>
 
 <script>
+// project images
+import coveytown from '../assets/coveytown.png'
+import fosteredfood from '../assets/fosteredfood.jpg'
+import mlrm from '../assets/mlrm_overview.jpg'
+// tool icons
+import jest from '../assets/jest.png'
+import typescript from '../assets/language-typescript.png'
+import numpy from '../assets/numpy.png'
+import pandas from '../assets/pandas.png'
+import scikit from '../assets/scikit-learn.png'
+
 export default {
-    data() {
-      return {
-        // data to return
-      }
-    },
+    data: () => ({
+        // images to render during build
+        coveytown: coveytown,
+        fosteredfood: fosteredfood,
+        jest: jest,
+        typescript: typescript,
+        mlrm: mlrm,
+        numpy: numpy,
+        pandas: pandas,
+        scikit: scikit
+    }),
     props: {
+        name: {
+            type: String,
+            default: 'Project Name'
+        },
         projectTitle: {
             type: String,
             default: 'Project Loading', 

@@ -7,6 +7,7 @@
             <v-window v-model="tab" v-for="project in projectData">
                 <v-window-item :value="project.name">
                     <ProjectComponent 
+                    :name="project.name"
                     :projectTitle="project.projectTitle" 
                     :projectOverview="project.projectOverview"
                     :githubLink="project.githubLink"
