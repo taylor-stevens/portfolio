@@ -5,7 +5,7 @@
           <v-img
             class="bg-white rounded-xl d-flex align-center"
             :aspect-ratio="1"
-            src="../assets/me.jpeg"
+            src="./images/me.jpeg"
             cover
           ></v-img>
         </v-col>

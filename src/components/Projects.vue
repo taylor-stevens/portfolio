@@ -27,7 +27,7 @@
 
 <script>
   import ProjectComponent from './ProjectComponent.vue'
-  import projectData from '../assets/projectinfo.json'
+  import projectData from './data/projectinfo.json'
 
   export default {
     data: () => ({
