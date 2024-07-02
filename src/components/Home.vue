@@ -1,7 +1,7 @@
 <template>
-    <v-container class="fill-height transparent">
-      <v-row style="padding-top:5%; padding-bottom:5%">
-        <v-col style="padding: 3%;" cols="12" sm="6">
+    <v-container class="fill-height transparent" style="max-height: 90vh;">
+      <v-row style="max-height:inherit">
+        <v-col style="padding: 3%;" cols="12" sm="6" align-self="center">
           <v-img
             class="bg-white rounded-xl d-flex align-center"
             :aspect-ratio="1"
@@ -9,7 +9,7 @@
             cover
           ></v-img>
         </v-col>
-        <v-col cols="12" sm="6" style="place-self:center; min-width: 50%;">
+        <v-col cols="12" sm="6" style="max-height: inherit; overflow: scroll; padding-top: 5%; padding-bottom: 20%;">
           <div>
             <div class="text-h2">Taylor Stevens</div>
             <div class="text-h6">
