@@ -11,10 +11,12 @@
       <v-tabs v-model="page" :color="tabColor">
         <v-tab value="0" :text="'Home'"></v-tab>
         <v-tab value="1" :text="'Projects'"></v-tab>
+        <v-tab value="2" :text="'Expereinces'"></v-tab>
       </v-tabs>
     </v-app-bar>
     <Home v-if="page == 0" @projects="changePage"/>
     <Projects v-else-if="page == 1"/>
+    <Experiences v-else-if="page == 2"/>
   </v-sheet>
 </template>
 
@@ -22,6 +24,7 @@
 
   import Home from './Home.vue'
   import Projects from './Projects.vue'
+  import Experiences from './Experiences.vue'
 
   export default {
     // Properties returned from data() become reactive state
@@ -41,8 +44,9 @@
       },
     },
     components: {
-      Home,
-      Projects,
-    }
+    Home,
+    Projects,
+    Experiences
+}
   }
 </script>

@@ -1,0 +1,65 @@
+[
+    {
+        "jobTitle": "Software Engineering Co-op",
+        "jobLocation": "Millis, MA, USA",
+        "jobCompany": "Crop One Holdings",
+        "jobStartDate": "January 1, 2023",
+        "jobEndDate": "June 30, 2023",
+        "remote": true,
+        "inPerson": true,
+        "jobDescription": [
+            "Overhauled the team's Asana project management workflow to enable project history tracking, enhance team communication, and improve workflow scalability. This initiative effectively eliminated 2-3 hours of communication meetings per week.",
+            "Designed multiple repositories aimed at facilitating data analysis, enhancing the client's capabilities and efficiency in the hydroponic growth system. Utilized libraries such as OpenCV, Flask, Nginx, and Google API while operating within Linux and Raspberry Pi OS through a VirtualBox VM for both Shell and Python scripting. This effort resulted in a reduction of 4-5 hours of manual labor for the client per week.",
+            "Increased production output by over 10 units weekly through assistance in software maintenance for a deployed Javascript and Python application using the VSCode IDE in a Mac OS. Technologies utilized include Django, Vue, Jenkins, and Docker, and Github. Followed an Agile development style."
+        ]
+    },
+    {
+        "jobTitle": "Software Engineering Co-op",
+        "jobLocation": "Cambridge, MA, USA",
+        "jobCompany": "MORSE Corporation",
+        "jobStartDate": "January 1, 2024",
+        "jobEndDate": "June 30, 2024",
+        "remote": true,
+        "inPerson": true,
+        "jobDescription": [
+            "Improved existing and created new analytic software in Python through feature extension using Agile methodologies and design patterns with tools such as Pandas, PySpark, Pytest, Sphinx, Github, Jenkins, Docker, and VMWare, leading the company to gain a second 2 million dollar artificial intelligence research contract."
+        ]
+    },
+    {
+        "jobTitle": "Introduction to Programming Co-Facilitator",
+        "jobLocation": "Boston, MA, USA",
+        "jobCompany": "SMASH Academey Northeastern",
+        "jobStartDate": "July 1, 2021",
+        "jobEndDate": "August 31, 2021",
+        "remote": true,
+        "inPerson": false,
+        "jobDescription": [
+            "Led an accelerated Python and Pandas statistics course while designing curriculum to capture extensive course material, aiding over 20 students in successfully completing the challenging course."
+        ]
+    },
+    {
+        "jobTitle": "Intern & Learning Fellow",
+        "jobLocation": "Boston, MA, USA",
+        "jobCompany": "Northeastern Hillel",
+        "jobStartDate": "October 1, 2020",
+        "jobEndDate": "June 30, 2021",
+        "remote": true,
+        "inPerson": false,
+        "jobDescription": [
+            "Managed fundraisers and produced materials to support current anti-racist efforts and existing resources while challenging existing ideas about the US Hillel community and their involvement in Israel, joining over 5,000 other students in maintaining cultural traditions ethically."
+        ]
+    },
+    {
+        "jobTitle": "Barista",
+        "jobLocation": "North Reading, MA, USA",
+        "jobCompany": "Starbucks Coffee Company",
+        "jobStartDate": "August 1, 2019",
+        "jobEndDate": "August 30, 2020",
+        "remote": false,
+        "inPerson": true,
+        "jobDescription": [
+            "Managed customer relations full time with over 400 customers a day keeping a fast pace and high quality of customer service",
+            "Anticipated customer and management needs throughout shifts"
+        ]
+    }
+]
