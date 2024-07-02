@@ -11,7 +11,6 @@
  */
 
 // Styles
-import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 
 import '@fortawesome/fontawesome-free/css/all.css' // Ensure your project is capable of handling css files
