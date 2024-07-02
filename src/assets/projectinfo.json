@@ -6,7 +6,7 @@
         "githubLink": "https://github.com/taylor-stevens/fostered-food",
         "websiteLink": "https://taylor-stevens.github.io/fostered-food/",
         "websiteLinkDescription": "active website",
-        "projectImagePreviewSrc": "./src/assets/fosteredfood.jpg",
+        "projectImagePreviewSrc": "./dist/assets/fosteredfood.jpg",
         "toolIcons": ["fa-brands fa-react", "fa-brands fa-js", "fa-brands fa-node-js", "fa-brands fa-fly", "fa-brands fa-docker", "fa-brands fa-square-google-plus", "fa-brands fa-bootstrap", "fa-solid fa-leaf", "fa-solid fa-magnifying-glass"],
         "toolImages": ["./src/assets/language-typescript.png"],
         "leftDescriptionTitle": "Software",
