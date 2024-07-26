@@ -1,5 +1,30 @@
 [
     {
+        "jobTitle": "Design Thinking & Exploring the Web Facilitator",
+        "jobLocation": "Boston, MA, USA",
+        "jobCompany": "SMASH Academy Northeastern",
+        "jobStartDate": "June 24, 2024",
+        "jobEndDate": "July 26, 2024",
+        "remote": false,
+        "inPerson": true,
+        "jobDescription": [
+            "Guided students through a 3 week intensive computer science program, teaching them how to problem solve and become project leaders through work with tools such as Figma for wireframing and prototyping.",
+            "Taught and aided student work towards creating simple portfolio websites using tools such as HTML, CSS, and Javascript."
+        ],
+        "previouslyHeldPosition": {
+            "jobTitle": "Introduction to Programming Co-Facilitator",
+            "jobLocation": "Boston, MA, USA",
+            "jobCompany": "SMASH Academy Northeastern",
+            "jobStartDate": "July 1, 2021",
+            "jobEndDate": "August 31, 2021",
+            "remote": true,
+            "inPerson": false,
+            "jobDescription": [
+                "Led an accelerated Python and Pandas statistics course while designing curriculum to capture extensive course material, aiding over 20 students in successfully completing the challenging course."
+            ]
+        }
+    },
+    {
         "jobTitle": "Software Engineering Co-op",
         "jobLocation": "Millis, MA, USA",
         "jobCompany": "Crop One Holdings",
@@ -17,24 +42,12 @@
         "jobTitle": "Software Engineering Co-op",
         "jobLocation": "Cambridge, MA, USA",
         "jobCompany": "MORSE Corporation",
-        "jobStartDate": "January 1, 2024",
-        "jobEndDate": "June 30, 2024",
+        "jobStartDate": "January 1, 2022",
+        "jobEndDate": "June 30, 2022",
         "remote": true,
         "inPerson": true,
         "jobDescription": [
             "Improved existing and created new analytic software in Python through feature extension using Agile methodologies and design patterns with tools such as Pandas, PySpark, Pytest, Sphinx, Github, Jenkins, Docker, and VMWare, leading the company to gain a second 2 million dollar artificial intelligence research contract."
-        ]
-    },
-    {
-        "jobTitle": "Introduction to Programming Co-Facilitator",
-        "jobLocation": "Boston, MA, USA",
-        "jobCompany": "SMASH Academey Northeastern",
-        "jobStartDate": "July 1, 2021",
-        "jobEndDate": "August 31, 2021",
-        "remote": true,
-        "inPerson": false,
-        "jobDescription": [
-            "Led an accelerated Python and Pandas statistics course while designing curriculum to capture extensive course material, aiding over 20 students in successfully completing the challenging course."
         ]
     },
     {
