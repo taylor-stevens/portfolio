@@ -2,21 +2,14 @@
     <v-container class="fill-height transparent" style="max-height: 90vh;">
       <v-row style="max-height:inherit">
         <v-col style="padding: 3%;" cols="12" sm="6" align-self="center">
-          <v-img
-            class="bg-white rounded-xl d-flex align-center"
-            :aspect-ratio="1"
-            src="../assets/me.jpeg"
-            cover
-          ></v-img>
+          <div class="text-h1">{{ 'Taylor Stevens' }}</div>
         </v-col>
         <v-col cols="12" sm="6" style="max-height: inherit; overflow: scroll; padding-top: 5%; padding-bottom: 20%;">
           <div>
-            <div class="text-h4">Taylor Stevens</div>
-            <div class="text-h7">
+            <div class="text-h7" style="overflow-y: auto">
               <br>
               Welcome to my software engineering portfolio! Here, you'll find examples of 
-            projects I've worked on, showcasing my skills in the field of software 
-            development. Whether you're here to browse through my projects, learn more 
+            projects I worked on while studying. Whether you're here to browse through my projects, learn more 
             about my experience, or get in touch for potential collaboration, I hope you 
             find what you're looking for!
             <br/><br/>
@@ -38,8 +31,7 @@
             I thrive in collaborative environments where creativity and innovation are 
             encouraged, and I enjoy tackling complex technical challenges. My skill set 
             includes proficiency in a wide range of technologies, from backend development 
-            using Node.js and Python to frontend frameworks like React and Vue for web 
-            app development.
+            using Python and Javascript to frontend frameworks like React, Vue, and SwiftUI.
             <br/><br/>
             If you are interested in discussing a project or exploring opportunities to 
             work together, feel free to reach out via email at taylorstevens14562@gmail.com. 

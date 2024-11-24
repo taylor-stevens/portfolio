@@ -1,5 +1,17 @@
 [
     {
+        "jobTitle": "iOS Developer (Volunteer)",
+        "jobLocation": "Burlington, MA, USA",
+        "jobCompany": "Earth Hero",
+        "jobStartDate": "September 1, 2023",
+        "jobEndDate": "Present",
+        "remote": true,
+        "inPerson": false,
+        "jobDescription": [
+            "Aiding in the development of the Earth Hero iOS Application through bug fixes and feature extension."
+            ]
+    },
+    {
         "jobTitle": "Design Thinking & Exploring the Web Facilitator",
         "jobLocation": "Boston, MA, USA",
         "jobCompany": "SMASH Academy Northeastern",
