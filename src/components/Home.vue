@@ -25,7 +25,7 @@
             web applications, writing extensive testing coverage, and using data analysis
             tools, and a four year degree in Computer Science and Artificial Intelligence
             from Northeastern University. My journey in software development began in high 
-            school my softmore year, where I discovered my love for coding and 
+            school my sophomore year, where I discovered my love for coding and 
             problem-solving, but did not stop there!
             <br/><br/>
             I thrive in collaborative environments where creativity and innovation are 
